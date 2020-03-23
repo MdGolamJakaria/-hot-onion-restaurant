@@ -1,0 +1,16 @@
+.foods-catagory {
+    margin: 60px;
+}
+.foods-catagory a {
+    padding: 10px 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
+    border-radius: 5px;
+    margin: 0px 10px;
+}
+.foods-catagory a:hover{
+    color: white;
+    background-color: rgb(253, 60, 92);
+}

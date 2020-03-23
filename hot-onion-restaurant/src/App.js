@@ -1,16 +1,49 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
-
+import Header from './Components/Header/Header';
+import Banner from './Components/Banner/Banner';
+import Productgrid from './Components/Productgrid/Productgrid';
+import Breakfast from './Components/Breakfast/Breakfast';
+import Lunch from './Components/Lunch/Lunch';
+import Dinner from './Components/Dinner/Dinner';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
 function App() {
   return (
     <div>
-      <h1>This is APP Components</h1>
+      <Header></Header>
+      <Banner></Banner>
+      <Productgrid></Productgrid>
+
+
+
+
+
+
+
+      <Router>
+        <Switch>
+          <Route path='/breakfast'>
+            <Breakfast></Breakfast>
+          </Route>
+          <Route path='/lunch'>
+            <Lunch></Lunch>
+          </Route>
+          <Route path='/dinner'>
+            <Dinner></Dinner>
+          </Route>
+        </Switch>
+      </Router>
+
+
+ 
     </div>
-  );
+    );
 }
 
 export default App;

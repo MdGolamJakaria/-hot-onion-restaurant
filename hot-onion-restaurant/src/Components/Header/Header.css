@@ -1,0 +1,28 @@
+header{
+    margin-top: 20px;
+  }
+  .logo img {
+    width: 200px;
+  }
+  .cart-icon{
+    margin: 0px 20px;
+  }
+  .cart-icon:hover{
+    color:rgb(253, 60, 92);
+  }
+  .top-banner-area a{
+    text-transform: capitalize;
+    margin-left: 20px;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+  
+  }
+  .top-banner-area a:hover{
+    background-color: rgb(253, 60, 92);
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+  }
